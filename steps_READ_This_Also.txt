@@ -1,0 +1,47 @@
+STEP 1 -
+
+ myjson = `{
+    "name": "valen",
+     "age": 26,
+     "contact": "7517770046",
+     "isStudying": false,
+     "job": null,
+     "fullname": ["Valen","Rajubhai","Patel"],
+    
+     "myObject": {
+         "name": "kavisha",
+         "herage": 27,
+         "gender": "female"
+     }
+ }`; 
+
+
+
+
+STEP 2 -
+
+JSON.parse(myjson);
+
+
+
+
+
+STEP A -
+//Creating parsed as a variable which stores "JSON.parse(myjson)" given below;
+
+parsed = JSON.parse(myjson);   
+
+
+
+STEP B -
+//accessing values using variable
+
+parsed.fullname;    //fullname is a key
+
+parsed["fullname"][1];
+
+parsed.fullname[2]
+
+parsed.myObject.gender;
+
+parsed.myObject.fullname[2];  OR, parsed["myObject"]["fullname"][2];

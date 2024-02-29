@@ -1,0 +1,17 @@
+{
+    "name": "valen",
+    "age": 26,
+    "contact": "7517770046",
+    "isStudying": false,
+    "job": null,
+    "fullname": ["Valen","Rajubhai","Patel"],
+
+    "myObject": {
+        "name": "kavisha",
+        "herage": 27,
+        "gender": "female",
+        "fullname": ["Kavisha","Dipakbhai","Patel", {"a" : "hihihihi"}]
+    }
+    
+}
+
